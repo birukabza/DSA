@@ -26,7 +26,7 @@ class Robot:
 
             self.x, self.y = dx, dy
 
-    def getPos(self) -> List[int]:
+    def getPos(self) -> list[int]:
         return [self.x, self.y]
         
     def getDir(self) -> str:
