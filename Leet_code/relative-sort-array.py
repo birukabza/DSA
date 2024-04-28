@@ -15,5 +15,7 @@ class Solution:
         left.sort()
         res.extend(left)
         return res
+    
+
 
         
