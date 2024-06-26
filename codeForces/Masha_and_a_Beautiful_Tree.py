@@ -25,7 +25,6 @@ for _ in range(int(input())):
         return merge(left, right)
     
     if sorted(arr) == merge_sort(arr, 0, n-1):
-
         print(ans)
     else:
         print(-1)
